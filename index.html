@@ -1,161 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Seackays Ventures — the personal website of Charlotte Kirk, endurance athlete, adventurer and explorer." />
-  <title>Seackays Ventures | Charlotte Kirk</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dr Charlotte Kirk</title><meta name="description" content="Dr Charlotte Kirk is a clean energy investor, technology developer, project financier and endurance athlete.">
+<style>
+@font-face{font-family:Saans;src:url('https://www.lucyfshaw.com/_next/static/media/Saans_TRIAL_Regular-s.p.3b9c44d1.woff2')}@font-face{font-family:Saans;src:url('https://www.lucyfshaw.com/_next/static/media/Saans_TRIAL_Bold-s.p.32699c9b.woff2');font-weight:700}
+:root{--blue:#599fea;--brown:#8b5b3e;--green:#3f5a3a;--grey:#a19f99;--cream:#f7f4ee;--black:#000;--white:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:#000;font-family:Saans,Arial,sans-serif;letter-spacing:-.015em}a{color:inherit;text-decoration:none}p{line-height:1.55}.header{height:82px;padding:0 4vw;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10;background:rgba(247,244,238,.95);border-bottom:2px solid var(--blue)}.brand{font-size:25px;font-weight:700;letter-spacing:-.06em}.nav{display:flex;gap:26px;font-size:14px;font-weight:600}.hero{padding:90px 4vw}.label{text-transform:uppercase;letter-spacing:.1em;font-size:12px;font-weight:700}.hero h1{max-width:1180px;font-size:clamp(28px,3.2vw,48px);line-height:1.12;letter-spacing:-.045em;margin:22px 0 0}.ticker{display:grid;grid-template-columns:repeat(5,1fr);padding:17px 4vw;background:var(--blue);color:#fff;text-align:center;text-transform:uppercase;font-size:12px;font-weight:700}.section{display:grid;grid-template-columns:17% 83%;padding:120px 4vw;border-bottom:2px solid var(--blue)}.section-content{padding-right:4vw}.about{display:block}.about-grid{display:grid;grid-template-columns:25% 1fr;gap:3vw;align-items:stretch}.about-photo{width:100%;height:100%;object-fit:contain;object-position:left top}.about-copy{font-size:18px}.about-copy p{margin:0}.about-copy p+p{margin-top:28px}.what-intro{display:flex;align-items:flex-start;gap:42px;margin-bottom:48px}.what-intro h2,.writing-intro{font-size:32px;line-height:1.08;letter-spacing:-.055em;font-weight:700;margin:0;max-width:1000px}.button{display:inline-flex;align-items:center;gap:10px;background:var(--blue);color:#fff;border:2px solid var(--blue);padding:15px 22px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}.button:hover{box-shadow:4px 4px 0 #000;transform:translate(-3px,-3px)}.audience-row{display:grid;grid-template-columns:70px minmax(220px,30%) 1fr;gap:30px;padding:36px 0;border-bottom:1px solid var(--blue)}.audience-row:last-child{border:0}.num{font-size:36px;font-weight:700;color:var(--grey)}.audience-row h3{font-size:23px;line-height:1.15;margin:0}.services{display:grid;grid-template-columns:1fr 1fr;gap:34px}.services h4{font-size:17px;margin:0 0 8px}.services p{font-size:15px;margin:0}.clients{margin-top:70px;padding-top:42px;border-top:1px solid var(--blue)}.clients>p{text-align:center}.marquee{overflow:hidden;padding:22px 0}.track{display:flex;align-items:center;gap:72px;width:max-content;animation:scroll 34s linear infinite}.logo{display:flex;align-items:center;gap:12px;min-width:190px}.logo img{width:46px;height:46px;object-fit:contain}.logo b{font-size:17px;line-height:1.08}@keyframes scroll{to{transform:translateX(calc(-50% - 36px))}}
+.writing-head{display:flex;justify-content:space-between;align-items:flex-start;gap:40px}.article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:70px}.card{min-height:360px;padding:22px;border:2px solid #000;display:flex;flex-direction:column;position:relative;transition:.2s}.card:hover{transform:translate(-6px,-6px);box-shadow:8px 8px 0 #000}.card:nth-child(4n+1){background:var(--blue);color:#fff}.card:nth-child(4n+2){background:var(--brown);color:#fff}.card:nth-child(4n+3){background:var(--green);color:#fff}.card:nth-child(4n){background:var(--grey);color:#fff}.card-top{display:flex;justify-content:space-between;gap:12px;padding-bottom:16px;border-bottom:2px solid;text-transform:uppercase;font-size:10px;font-weight:700}.card-copy{margin-top:auto;padding-top:42px}.card h3{font-size:32px;line-height:1;margin:0 0 16px}.card p{font-size:14px;margin:0;max-width:90%}.arrow{position:absolute;right:20px;bottom:18px;font-size:28px}.more{text-align:center;margin-top:45px}.podcast-grid{display:grid;grid-template-columns:36% 58%;justify-content:space-between}.podcast-grid img{width:100%;display:block}.podcast-copy h2{font-size:clamp(42px,5vw,72px);line-height:.96;letter-spacing:-.06em}.platforms,.contact-links{display:flex;gap:18px;flex-wrap:wrap}.contact{text-align:center;padding:120px 12vw}.contact h2{font-size:clamp(35px,4.9vw,74px);line-height:.96;margin:25px auto;max-width:1050px}.contact p{max-width:620px;margin:25px auto}.contact-links{justify-content:center}.footer{display:flex;justify-content:space-between;align-items:center;padding:35px 4vw;border-top:1px solid var(--blue);font-size:10px;text-transform:uppercase}
+@media(max-width:950px){.nav{display:none}.section{grid-template-columns:1fr;padding:85px 7vw}.section>.label{margin-bottom:35px}.section-content{padding:0}.article-grid{grid-template-columns:1fr 1fr}.services{grid-template-columns:1fr}.podcast-grid{grid-template-columns:1fr;gap:45px}.client-track{animation-duration:28s}}
+@media(max-width:650px){.hero{padding:70px 6vw}.ticker{grid-template-columns:1fr 1fr;gap:12px}.ticker div:last-child{grid-column:1/-1}.about-grid,.article-grid{grid-template-columns:1fr}.about-photo{max-width:320px}.about-copy{font-size:16px}.what-intro,.writing-head{display:block}.what-intro .button,.writing-head .button{margin-top:24px}.audience-row{grid-template-columns:48px 1fr}.services{grid-column:2}.card{min-height:420px}.footer{flex-direction:column;gap:10px}.contact-links{flex-direction:column;align-items:center}}
+@media(prefers-reduced-motion:reduce){.track{animation:none}}
+</style></head>
 <body>
-  <header class="site-header">
-    <a href="#top" class="brand">SEACKAYS VENTURES</a>
-    <nav aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#achievements">Achievements</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main id="top">
-    <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="eyebrow">Athlete · Adventurer · Explorer</p>
-        <h1>Choosing the harder line.</h1>
-        <p class="hero-copy">
-          A life shaped by endurance, curiosity and the pursuit of difficult things.
-        </p>
-        <a class="button button-light" href="#achievements">Explore the journey</a>
-      </div>
-    </section>
-
-    <section id="about" class="section about">
-      <div>
-        <p class="eyebrow dark">About</p>
-        <h2>Adventure has always been a way of discovering what is possible.</h2>
-      </div>
-      <div class="about-copy">
-        <p>
-          I’m Charlotte Kirk, an endurance athlete and adventurer whose sporting life has taken me
-          across continents, over mountain ranges and along some of the world’s most demanding trails.
-        </p>
-        <p>
-          From running the Pacific Crest Trail to setting a fastest known time on the Camino de Santiago,
-          I’m drawn to challenges that demand resilience, self-belief and the willingness to keep moving
-          when the outcome is uncertain.
-        </p>
-      </div>
-    </section>
-
-    <section id="achievements" class="section achievements">
-      <div class="section-heading">
-        <p class="eyebrow dark">Selected achievements</p>
-        <h2>Built through distance, discipline and determination.</h2>
-      </div>
-
-      <div class="achievement-grid">
-        <article class="achievement-card feature-card">
-          <div class="card-number">01</div>
-          <div>
-            <p class="card-kicker">Pacific Crest Trail</p>
-            <h3>Mexico to Canada</h3>
-            <p>
-              Completed the Pacific Crest Trail, covering roughly 4,500 kilometres through desert,
-              mountain and wilderness terrain in around 90 days.
-            </p>
-          </div>
-        </article>
-
-        <article class="achievement-card">
-          <div class="card-number">02</div>
-          <div>
-            <p class="card-kicker">Camino de Santiago</p>
-            <h3>800 km in 11.5 days</h3>
-            <p>
-              Set a fastest known time across the Camino de Santiago, combining sustained endurance
-              with disciplined execution over nearly two weeks.
-            </p>
-          </div>
-        </article>
-
-        <article class="achievement-card">
-          <div class="card-number">03</div>
-          <div>
-            <p class="card-kicker">Cross-country skiing</p>
-            <h3>World Championship level</h3>
-            <p>
-              Competed internationally in cross-country skiing, representing the discipline and
-              technical focus required at elite level.
-            </p>
-          </div>
-        </article>
-
-        <article class="achievement-card">
-          <div class="card-number">04</div>
-          <div>
-            <p class="card-kicker">Endurance sport</p>
-            <h3>Ultras and Ironman</h3>
-            <p>
-              Completed ultra-distance running and Ironman events, building experience across
-              multiple endurance disciplines and environments.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="quote-section">
-      <blockquote>
-        “The most meaningful adventures are rarely the easiest ones.”
-      </blockquote>
-    </section>
-
-    <section id="gallery" class="section gallery">
-      <div class="section-heading">
-        <p class="eyebrow dark">Gallery</p>
-        <h2>Moments from the trail.</h2>
-        <p class="gallery-note">
-          Replace these images with your own photographs by uploading them to the <strong>images</strong>
-          folder and updating the filenames in <strong>index.html</strong>.
-        </p>
-      </div>
-
-      <div class="gallery-grid">
-        <div class="gallery-item gallery-one">
-          <span>Pacific Crest Trail</span>
-        </div>
-        <div class="gallery-item gallery-two">
-          <span>Camino de Santiago</span>
-        </div>
-        <div class="gallery-item gallery-three">
-          <span>Mountain endurance</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <p class="eyebrow">Contact</p>
-      <h2>For partnerships, speaking and future adventures.</h2>
-      <p>
-        Add your preferred email address and social links below.
-      </p>
-      <div class="contact-links">
-        <a href="mailto:hello@example.com">hello@example.com</a>
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© <span id="year"></span> Seackays Ventures. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<header class="header"><a class="brand" href="#top">Dr Charlotte Kirk</a><nav class="nav"><a href="#about">About</a><a href="#investing">Investing</a><a href="#writing">Writing</a><a href="#podcast">Podcast</a><a href="#contact">Contact</a></nav></header>
+<main><section class="hero" id="top"><p class="label">Energy · Technology · Investment</p><h1>Dr Charlotte Kirk is a clean energy investor, technology developer, project financier and endurance athlete</h1></section>
+<section class="ticker"><div>Clean energy</div><div>Deep technology</div><div>Venture capital</div><div>Industrial transformation</div><div>Climate resilience</div></section>
+<section class="section about" id="about"><div class="about-grid"><img class="about-photo" src="https://charlotte-kirk.cmkirk29.chatgpt.site/charlotte-kirk.jpg" alt="Dr Charlotte Kirk"><div class="about-copy"><p>Dr Charlotte Kirk is a technology investor and operator specialising in the clean energy transition. She was previously the Head of Technology at Fortescue, leading strategy and investment for a $6.2 billion industrial electrification program across renewable generation, battery storage, transmission and zero-emission mining equipment and operations. She subsequently led European investments at Clean Energy Ventures. She has a PhD in Chemistry from Oxford University, where she was an Academic Scholar engineering new battery materials and renewable fuels.</p><p>She was also the first female in the British Army's infantry where she served for 5 years, and is a North Face-sponsored endurance athlete competing at World Championships across ultramarathons, Ironmans and cross-country skiing. She has set the Fastest Known Time running the 800 km Camino de Santiago and ran the 4,500 km Pacific Crest Trail as 90 consecutive ultramarathons. These experiences shape how she thinks about resilience, leadership and execution under pressure.</p></div></div></section>
+<section class="section" id="investing"><p class="label">What I do</p><div class="section-content"><div class="what-intro"><h2>Investing in technologies and projects redefining clean energy, industrial transformation and community resilience.</h2><a class="button" href="mailto:charlotte.kirk@seackays.com">Get in touch ↗</a></div><div id="audiences"></div><div class="clients"><p>Client list includes</p><div class="marquee"><div class="track" id="logos"></div></div></div></div></section>
+<section class="section" id="writing"><p class="label">Writing &amp; Analysis</p><div class="section-content"><div class="writing-head"><p class="writing-intro">These articles mostly accompany the <a href="https://www.powerplayspod.com/" target="_blank"><u>Power Plays podcast</u></a>, and expand on the discussion with my research, supporting data and additional analysis.</p><a class="button" href="https://charlottemkirk.substack.com/" target="_blank">Visit Substack ↗</a></div><div class="article-grid" id="articles"></div><div class="more"><a class="button" href="https://charlottemkirk.substack.com/" target="_blank">See more articles ↗</a></div></div></section>
+<section class="section" id="podcast"><p class="label">Podcast</p><div class="section-content podcast-grid"><img src="https://charlotte-kirk.cmkirk29.chatgpt.site/power-plays.jpeg" alt="Power Plays podcast"><div class="podcast-copy"><p class="label">New episodes weekly</p><h2>The tech, finance and politics powering the energy transition.</h2><p>Join Dr Charlotte Kirk and Lucy Shaw each week as they unpack what happened, why it matters and what you need to know.</p><div class="platforms"><a class="button" href="https://www.powerplayspod.com/" target="_blank">Explore the podcast ↗</a><a class="button" href="https://open.spotify.com/show/2GdZJbi4VE9lr2V8GdtG5b" target="_blank">Spotify ↗</a><a class="button" href="https://podcasts.apple.com/gb/podcast/power-plays/id1878421263" target="_blank">Apple Podcasts ↗</a></div></div></div></section>
+<section class="contact" id="contact"><p class="label">Contact</p><h2>Have a project, investment or idea worth building?</h2><p>Charlotte is open to thoughtful conversations with founders, investors, communities, event organisers and collaborators.</p><div class="contact-links"><a class="button" href="https://www.linkedin.com/in/dr-charlotte-kirk-00923b1a6" target="_blank">Connect on LinkedIn ↗</a><a class="button" href="mailto:charlotte.kirk@seackays.com">Email ↗</a></div></section></main>
+<footer class="footer"><a class="brand" href="#top">Dr Charlotte Kirk</a><p>Energy · Technology · Investment · Endurance</p><p>© 2026 Dr Charlotte Kirk</p></footer>
+<script>
+const audiences=[['For investors, family offices and catalytic investors','Investment strategy and due diligence','Technical evaluation, commercial due diligence, investment strategy, deal execution and portfolio support from Seed through Growth.','Catalytic-capital design','Developing financing models that help clean-energy and climate-resilience solutions reach deployment, including in frontline communities.'],['For technology companies and C-suite leaders','Strategic and commercial advisory','Supporting technology strategy, market positioning, commercialisation and growth across advanced energy, infrastructure and industrial transformation.','Fundraising and partnerships','Helping companies prepare for and close capital raises, build strategic partnerships and connect with investors, customers and policymakers.'],['For project developers and sponsors','Project development','Turning promising technologies into financeable projects through site, power, permitting, procurement and delivery strategy.','Capital and commercial structuring','Bridging strategy and finance through capital structuring, contracts, commercial models and partnerships that make projects bankable and investable.'],['For governments and policymakers','Policy and market advisory','Making sense of technology, energy markets and regulatory shifts to support effective policy and investment decisions.','Implementation strategy','Connecting governments with investors, companies, developers and communities to translate policy objectives into deliverable projects.'],['For communities','Community energy and resilience','Helping communities identify, finance and deploy clean-energy and climate-resilience solutions that address local priorities.','Capital and ecosystem building','Connecting communities with catalytic capital, technology providers, project developers and public-sector partners to move projects from concept to implementation.']];
+document.querySelector('#audiences').innerHTML=audiences.map((a,i)=>`<article class="audience-row"><span class="num">0${i+1}</span><h3>${a[0]}</h3><div class="services"><div><h4>${a[1]}</h4><p>${a[2]}</p></div><div><h4>${a[3]}</h4><p>${a[4]}</p></div></div></article>`).join('');
+const logos=[['NATO','nato.png'],['Octopus Energy','octopus.png'],['Topsoe','topsoe.png'],['H2UB','h2ub.png'],['Fortescue','fortescue.png'],['ERM','erm.png'],['London Business School','lbs.png'],['Innovation Zero','innovation-zero.png'],['STFC','stfc.png'],['University of Oxford','oxford.png'],['Stanford University','stanford.png']];
+document.querySelector('#logos').innerHTML=[...logos,...logos].map(([n,f])=>`<span class="logo"><img src="https://charlotte-kirk.cmkirk29.chatgpt.site/client-logos/${f}" alt=""><b>${n}</b></span>`).join('');
+const posts=[['Snowmaking','26th April 2026','Snowmaking: How skiing is adapting to a warmer climate','How snowmaking works, the energy and water it requires, and how ski areas are adapting operations as winters become warmer and less predictable.','https://charlottemkirk.substack.com/p/snowmaking-how-skiing-is-adapting'],['16 - Rare Earth','14 June 2026','Rare-earth processing and large-load interconnection','Phoenix Tailings’ rare-earth facility, FERC’s large-load interconnection orders, Order 2222 and the Google–Voltus distributed-capacity agreement in PJM.','#'],['15 - Nuclear','7 June 2026','The enabling capacity behind nuclear, minerals and grid storage','DISA Technologies, Urenco, CATL, HyperStrong, ESS, Alsym, GM, Peak Energy, Moment Energy, Atana Elements and Terra AI.','#'],['14 - Storage','13 May 2026','Batteries at opposite ends of the storage market','Nyobolt’s five-minute charging technology and Antora Energy’s 100-hour thermal storage illustrate two different routes to scale.','#'],['13 - Grid Edge','2 May 2026','DERs, VPPs and compute at the grid edge','Uplight, Octopus Energy, Lunar Energy and Span show how batteries, VPPs and smart electrical panels are reshaping distributed power.','#'],['12 - Green Steel','18 April 2026','Where green iron can scale, and at what risk','Stegra’s financing, SuSteel’s hydrogen-based ironmaking and geopolitical risk in industrial competitiveness.','#'],['11 - Batteries','12 April 2026','Sodium-ion, distributed resources and battery manufacturing','Peak Energy’s sodium-ion deployment, Base Power’s residential battery programme and the collapse of Ascend Elements.','#'],['10 - Industry','29 March 2026','Reconnecting steel and concrete','Industrial decarbonisation through low-carbon steel and concrete, including Cocoon Carbon’s $15 million Series A.','#'],['9 - Innovation','27 March 2026','Over-hyped, under-hyped or hyped just right?','Vehicle-to-grid technology, copper supply, balcony solar and enhanced geothermal systems.','#']];
+document.querySelector('#articles').innerHTML=posts.map(p=>`<a class="card" href="${p[4]==='#'?'https://charlottemkirk.substack.com/':p[4]}" target="_blank"><div class="card-top"><span>${p[0]}</span><span>${p[1]}</span></div><div class="card-copy"><h3>${p[2]}</h3><p>${p[3]}</p></div><span class="arrow">↗</span></a>`).join('');
+</script></body></html>
